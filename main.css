@@ -61,6 +61,7 @@ button {
     background: url('img/back.png') no-repeat;
     background-position: center;
     background-size: cover;
+    position: relative;
 }
 .about h1 {
     font-size: 70px;
@@ -145,11 +146,7 @@ button {
     margin-top: 40px;
 }
 
-button:hover {
-background-color: #f6980c;
-box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
-transition: background-color 0.3s ease-in;
-}
+
 footer {
     padding: 90px 20px 90px 20px;
     font-size: 16px;
@@ -335,11 +332,14 @@ footer h3 {
     background-color: #dc5e26;
     box-shadow: 0 6px 0 rgb(221 95 38 / 20%);
     margin-right: 30px;
+    height: 50%;
+  
   }
     .features__rate-box {
     background-color: #1D263A;
     box-shadow: 0 6px 0 rgb(29 38 58 / 20%);
     margin-right: 30px;
+    height: 50%;
   }
     .stars {
     color: #ff7039;
@@ -435,3 +435,14 @@ footer h3 {
     font-size: 15px;
     margin-left: 5px;
   }
+  button:hover {
+    background-color: #f6980c;
+    box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
+    transition: background-color 0.3s ease-in;
+    }
+    .orb-canvas {
+        position: absolute;
+        height: 100%;
+        top: 0;
+        right: 0;
+    }
